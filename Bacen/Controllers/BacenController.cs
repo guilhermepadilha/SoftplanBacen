@@ -16,7 +16,7 @@ namespace Bacen.Controllers
 
         [HttpGet]
         [Route("taxaJuro")]
-        public IActionResult GetTaxaJuro()
+        public ActionResult<TaxaJuro> GetTaxaJuro()
         {
             try
             {
