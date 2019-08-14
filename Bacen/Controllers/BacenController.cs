@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Bacen.Controllers
 {
     [Route("api/bacen")]
+    [ApiController]
     public class BacenController : Controller
     {
         private readonly IBacenAppService _bacenAppService;
